@@ -4,8 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+first clone or downlod the project by clicing on the big gree button code button Code
+
+First install the dependencies using this command
 ### `npm install`
 
+and after this run the project by using this command
 ### `npm start`
 
 Runs the app in the development mode.\
