@@ -1,24 +1,32 @@
 import React from "react";
-import Button from "./components/Button";
+import Button from "./components/pages/Button";
 import Navbar from "./components/Navbar/Navbar";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import All from "./components/pages/AllRent";
+import Home from "./components/pages/Home";
+import AnySerial from "./components/pages/AnySerial";
+import KoreanSerial from "./components/pages/koreanSerial";
+import Cartoon from "./components/pages/Cartoon";
+import Action from "./components/pages/action";
 
 const App = () => {
   return (
-    <section
-      className="h-screen bg-Hero bg-cover
-      font-[Poppins] md:bg-top bg-center"
-    >
-      <Navbar />
-      <div className="flex flex-col justify-center text-center items-center h-3/4">
-        <h2 className="text-white text-2xl font-medium ">Movies Tips</h2>
-        <h1 className="md:text-5xl text-3xl text-white font-semibold py-5">
-         It's Show Time
-        </h1>
-        <div className="text-xl">
-          <Button />
-        </div>
-      </div>
-    </section>
+    <>
+    
+   
+    <Navbar />
+      <Routes>
+
+        <Route path="/" element={<Home />}></Route>
+        <Route path='/all' element={<All />}></Route>
+        <Route path='/anyserial' element={<AnySerial />}></Route>
+        <Route path='/koreanserial' element={<KoreanSerial />}></Route>
+        <Route path='/cartoon' element={<Cartoon />}></Route>
+        <Route path="/action" element={<Action />}></Route>
+      </Routes>
+    
+
+    </>
   );
 };
 

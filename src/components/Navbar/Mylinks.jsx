@@ -6,7 +6,7 @@ export const links = [
       {
         Head: "Subscription",
         sublink: [
-          { name: "All ", link: "/" },
+          { name: "All ", link: "/all" },
           { name: "Rent", link: "/" },
           { name: "Channel", link: "/" },
         
@@ -42,8 +42,8 @@ export const links = [
       {
         Head: "Serial",
         sublink: [
-          { name: "any serial", link: "/" },
-          { name: "korean serial", link: "/" },
+          { name: "any serial", link: "/anyserial" },
+          { name: "korean serial", link: "/koreanserial" },
           { name: "indian serial", link: "/" },
           { name: " paskitan serial", link: "/" },
         
@@ -81,7 +81,7 @@ export const links = [
       {
         Head: "Genres",
         sublink: [
-          { name: "Action", link: "/" },
+          { name: "Action", link: "/action" },
           { name: "Adventure", link: "/" },
           { name: "Anime", link: "/" },
           { name: "Comedy", link: "/" },
@@ -92,7 +92,7 @@ export const links = [
       {
         Head: "Kid's",
         sublink: [
-          { name: "Cartoon", link: "/" },
+          { name: "Cartoon", link: "/cartoon" },
           { name: "Shinchan", link: "/" },
           { name: "Ninja hattori", link: "/" },
           { name: "Doremon", link: "/" },
