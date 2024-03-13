@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 first clone or downlod the project by clicing on the big gree button code button Code
 
 First install the dependencies using this command
-### `npm install`
+ `npm install`
 
 and after this run the project by using this command
 ### `npm start`
